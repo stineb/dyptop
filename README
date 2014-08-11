@@ -1,0 +1,17 @@
+Instructions to run DYPTOP demonstration program.
+
+1. To compile the Fortran90 code, enter the following in the terminal and make sure the present working directory is where the Makefile and all source files are located:
+      
+      make
+
+   This creates an executable called 'dyptop'. Fortran compilation is done using either gfortran of pgf95. Compiler is selected in Makefile.
+
+2. To execute the the DYPTOP demonstration program, enter the following in the same directory:
+
+      ./dyptop
+
+Output printed to screen should be equal to what is given in file ‘screenout.txt’. Use this as a check.
+
+That's it. Have fun with DYPTOP!      
+
+Author: Benjamin Stocker, June 2014
